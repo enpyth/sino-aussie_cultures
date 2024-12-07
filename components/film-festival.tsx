@@ -15,10 +15,10 @@ export function FilmFestival() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/placeholder.svg?height=600&width=800"
+              src="/images/placeholder.jpeg?height=600&width=800"
               alt="Film Festival Poster"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: 'cover' }}
             />
           </div>
           <div>

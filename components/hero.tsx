@@ -4,10 +4,10 @@ export function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <Image
-        src="/placeholder.svg?height=1080&width=1920"
+        src="/images/placeholder.jpeg?height=1080&width=1920"
         alt="China-Australia cultural collage"
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: 'cover' }}
         className="absolute z-0"
       />
       <div className="relative z-10 text-center text-white">
